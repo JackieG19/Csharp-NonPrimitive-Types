@@ -6,9 +6,11 @@ namespace CSharpFundamentals
 	{
 		static void Main(string[] args)
 		{
-			Calculator calculator = new Calculator();
-			var result = calculator.Add(1, 2);
-			Console.WriteLine(result);
+			var number = new int[3];
+			number[0] = 1;
+			Console.WriteLine(number[0]);
+			Console.WriteLine(number[1]);
+			Console.WriteLine(number[2]);
 		}	
 	}
 }
