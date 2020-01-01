@@ -6,12 +6,16 @@ namespace CSharpFundamentals
 	{
 		static void Main(string[] args)
 		{
-			var flags = new bool[3];
-			flag[0] = true;
+			var firstName = "Mosh";
 			
-			Console.WriteLine(flags[0]);
-			Console.WriteLine(flags[1]);
-			Console.WriteLine(flags[2]);
+			// string class in .Net framework
+			String lastName = "Hamedani"; 
+			
+			// string keyword in c#
+			string myName = "Mosh";
+			
+			Int32 i; // can use the int32 in the .Net framework
+			int j;  // int keyword
 		}	
 	}
 }
