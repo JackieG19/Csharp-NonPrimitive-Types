@@ -7,15 +7,14 @@ namespace CSharpFundamentals
 		static void Main(string[] args)
 		{
 			var firstName = "Mosh";
+			var lastName = "Hamedani";
 			
-			// string class in .Net framework
-			String lastName = "Hamedani"; 
+			var fullName = firstName + " " + lastName; // concatenate strings
 			
-			// string keyword in c#
-			string myName = "Mosh";
+			var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
 			
-			Int32 i; // can use the int32 in the .Net framework
-			int j;  // int keyword
+			/*string.Format method - Converts the value of objects to strings based 
+			on the formats specified and inserts them into another string.*/
 		}	
 	}
 }
