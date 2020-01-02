@@ -6,13 +6,16 @@ namespace CSharpFundamentals
 	{
 		static void Main(string[] args)
 		{
-			var names = new string[3] {"John", "Jack", "Mary"};
+			// \n - means newline
+			var text = "Hi John\nLook into the following paths\nc:\\folder1\\folder2\nc:\\folder3\\folder4";
+			Console.WriteLine(text);
 			
-			var formattedNames = string.Join(",", names);
-			/*string.Join method - The string.Join method combines many strings 
-			into one. It receives two arguments: an array and a separator string.*/
-
-			Console.WriteLine(formattedNames);
+			var text2 = @"Hi John
+			Look into the following paths
+			c:\folder1\folder2\
+			c:\folder3\folder4";
+			
+			Console.WriteLine(text2);
 		}	
 	}
 }
