@@ -1,6 +1,6 @@
 ## Non-Primitive Types
 
-**Classes**
+**1. Classes**
 
 A class combines related variables(fields) and function(methods)
 ```
@@ -68,7 +68,7 @@ int result = Calculator.Add(1, 2);
 ```
 ___
 
-**Structs**
+**2. Structs**
 
 - Declaring Structs
 
@@ -82,7 +82,7 @@ public struct RgbColor
 ```
 ___
 
-**Arrays**
+**3. Arrays**
 
 An array is a data structure to store a collection of variables of the same type.
 
@@ -109,7 +109,7 @@ int[] numbers = new int[3] {1, 2, 3};
 ```
 ___
 
-**Strings**
+**4. Strings**
 
 A string is a sequence of characters.
 
@@ -149,12 +149,16 @@ char firstChar = name[0];
 | \" | Double Quotation Mark |
 
 - Verbatim Strings
+
+Verbatim string is created using a special symbol @. @ is known as a verbatim identifier. If a string contains @ as a 
+prefix followed by double quotes, then compiler identifies that string as a verbatim string and compile that string. 
+The main advantage of @ symbol is to tell the string constructor to ignore escape characters and line breaks.
 ```
 string path = "c:\\projects\\project1\\folder1";
 string path = @"c:\\projects\\project1\\folder1";
 ```
 ___
-**Enums**
+**5. Enums**
 
 An enum is a set of name/value pairs(constants).
 
@@ -174,7 +178,7 @@ var method = ShippingMethod.Express;
 ```
 ___
 
-**Reference Types and Value Types**
+**6. Reference Types and Value Types**
 
 Structures
 - Value Types
@@ -187,3 +191,6 @@ Classes
 - You need to allocate memory
 - Memory allocated on heap
 - Garbage collected by CLR
+___
+
+Next -> [Control Flow](https://github.com/JackieG19/Csharp-Control-Flow)
