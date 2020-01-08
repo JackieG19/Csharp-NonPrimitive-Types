@@ -187,3 +187,6 @@ Classes
 - You need to allocate memory
 - Memory allocated on heap
 - Garbage collected by CLR
+___
+Next -> [Control Flow](https://github.com/JackieG19/Csharp-Control-Flow)
+
